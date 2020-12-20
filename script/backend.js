@@ -3,7 +3,7 @@ $(document).ready(function(){
 //Displaying grid of products on the homepage
     $.getJSON("https://api.npoint.io/4aaf9c6c8d8f688edec0", function(data) {
        //checking state of the data
-        if(window.location.pathname == '/WebProject2020_Y2/' || window.location.pathname == '/' ) {
+        if(window.location.pathname == '/WebProject2020_Y2/' || window.location.pathname == '/WebProject2020_Y2/index.html' ) {
             console.log('Index Page');
             indexPage(data)
         }
