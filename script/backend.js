@@ -1,7 +1,7 @@
 $(document).ready(function(){ 
     console.log(window.location)
 //Displaying grid of products on the homepage
-    $.getJSON("./data/iphones-products.json", function(data) {
+    $.getJSON("https://api.npoint.io/4aaf9c6c8d8f688edec0", function(data) {
        //checking state of the data
         if(window.location.pathname == '/index.html' || window.location.pathname == '/' ) {
             console.log('Index Page');
