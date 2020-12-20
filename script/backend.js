@@ -3,25 +3,25 @@ $(document).ready(function(){
 //Displaying grid of products on the homepage
     $.getJSON("https://api.npoint.io/4aaf9c6c8d8f688edec0", function(data) {
        //checking state of the data
-        if(window.location.pathname == '/index.html' || window.location.pathname == '/' ) {
+        if(window.location.pathname == '/WebProject2020_Y2/' || window.location.pathname == '/' ) {
             console.log('Index Page');
             indexPage(data)
         }
-        else if (window.location.pathname == '/pages/product.html') {
+        else if (window.location.pathname == '/WebProject2020_Y2/pages/product.html') {
             console.log('Product Page');
             productPage(data)
         }
-        else if (window.location.pathname == '/pages/cart.html') {
+        else if (window.location.pathname == '/WebProject2020_Y2/pages/cart.html') {
             console.log('on Cart Page')
             cartPage(data)
         }
-        else if (window.location.path == '/pages/shop.html') {
+        else if (window.location.path == '/WebProject2020_Y2/pages/shop.html') {
             console.log('on Shop Page')
         }
-        else if (window.location.pathname == '/pages/pay.html') {
+        else if (window.location.pathname == '/WebProject2020_Y2/pages/pay.html') {
             console.log('checkout')
             checkoutPage(data)
-        }else if (window.location.pathname == '/pages/shop.html') {
+        }else if (window.location.pathname == '/WebProject2020_Y2/pages/shop.html') {
             console.log('shop')
             shopPage(data)
         }
@@ -55,7 +55,7 @@ function indexPage(data) {
                         buttons.map(element => { element.addEventListener("click", (event => {
                         //assiging the clicked product to localStorage so we know what to render on product page
                         localStorage.setItem('product', `${event.target.name}`)
-                        window.location.href = 'pages/product.html'
+                        window.location.href = '/WebProject2020_Y2/pages/product.html'
                         }
                     )
                 )
@@ -126,7 +126,7 @@ function productPage(data) {
                     buttons.map(element => { element.addEventListener("click", (event => {
                     //assiging the clicked product to localStorage so we know what to render on product page
                     localStorage.setItem('product', `${event.target.name}`)
-                    window.location.href = '/pages/product.html'
+                    window.location.href = '/WebProject2020_Y2/pages/product.html'
                     }
                 )
             )
@@ -134,7 +134,7 @@ function productPage(data) {
     )
 }
 function gotoCart() {
-    window.location.href = '/pages/cart.html'
+    window.location.href = '/WebProject2020_Y2/pages/cart.html'
 }
 //user Login and Logout
 function userLogin() {
@@ -144,7 +144,7 @@ function userLogin() {
     //validating login details to one provided
     if(inputedLogin === 'guest@byteiphone.ie' && inputedPassword === 'admin1') {
         localStorage.setItem('loggedIn', true)
-        window.location.href = '/' //redirect to home
+        window.location.href = '/WebProject2020_Y2/' //redirect to home
        
     } else {
         localStorage.setItem('loggedIn', false)
@@ -155,7 +155,7 @@ function userLogin() {
 //Loging out functionality
 function userLogout() {
     localStorage.setItem('loggedIn', false)
-    window.location.href = '/'
+    window.location.href = '/WebProject2020_Y2/'
 }
 
 //check if user is loggedin and assiging it to a variable
@@ -165,7 +165,7 @@ if(loginStatus == 'true') {
     document.getElementsByClassName('login-item')[0].innerHTML = "Hi, Guest"
 }
 //front-end changes to login form depending on the state of users login
-if(window.location.pathname == '/pages/login.html' && loginStatus == 'true') {
+if(window.location.pathname == '/WebProject2020_Y2/pages/login.html' && loginStatus == 'true') {
     document.getElementById('already-loggedin').classList.remove('hidden')
     document.getElementById('signupform').classList.add('hidden')
     document.getElementById('already-loggedin').classList.add('show')
@@ -248,14 +248,14 @@ function cartPage(data) {
 
 function clearCart() {
     localStorage.setItem('itemsArray', null)
-    window.location.href='/'
+    window.location.href='/WebProject2020_Y2/'
     //TODO display a sucess messgae about clearing the cart
 }
 //check cart count and update on every page
 checkCartCount()
 
 function checkout() {
-    window.location.href='/pages/pay.html'
+    window.location.href='/WebProject2020_Y2/pages/pay.html'
 }
 function checkoutPage(data) {
     //checking if user is logging when accessing the page
@@ -369,7 +369,7 @@ function shopPage(data) {
                         buttons.map(element => { element.addEventListener("click", (event => {
                         //assiging the clicked product to localStorage so we know what to render on product page
                         localStorage.setItem('product', `${event.target.name}`)
-                        window.location.href = '/pages/product.html'
+                        window.location.href = '/WebProject2020_Y2/pages/product.html'
                         }
                     )
                 )
