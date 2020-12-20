@@ -1,0 +1,195 @@
+[
+  {
+    "productId": "iP8",
+    "name": "iPhone 8",
+    "price": "400",
+    "options": {
+      "color": [
+        "Gold",
+        "Black",
+        "Red"
+      ],
+      "storage": [
+        "64GB",
+        "256GB"
+      ]
+    },
+    "description": "The best value way to own an iPhone 8. Though it may have some superficial marks and scratches, it's in full working order. Battery tested, data wiped and full inspected. Charger and headphones not included. Battery capacity of 85% or more (versus when new). Fully unlocked and ready for any network. With a 1 year warranty for your peace of mind.",
+    "image": "../img/products/8.jpg"
+  },
+  {
+    "productId": "iP8P",
+    "name": "iPhone 8 Plus",
+    "price": "450",
+    "options": {
+      "color": [
+        "Gold",
+        "Black",
+        "Red"
+      ],
+      "storage": [
+        "64GB",
+        "256GB"
+      ]
+    },
+    "description": "The best value way to own an iPhone 8 Plus. Though it may have some superficial marks and scratches, it's in full working order. Battery tested, data wiped and full inspected. Charger and headphones not included. Battery capacity of 85% or more (versus when new). Fully unlocked and ready for any network. With a 1 year warranty for your peace of mind.",
+    "image": "../img/products/8plus.jpg"
+  },
+  {
+    "productId": "iPX",
+    "name": "iPhone X",
+    "price": "500",
+    "options": {
+      "color": [
+        "White",
+        "Black"
+      ],
+      "storage": [
+        "64GB",
+        "256GB"
+      ]
+    },
+    "description":"iPhone X is the future of the smartphone in a gorgeous all-glass design with a beautiful 5.8-inch Super Retina display. ... The device is the display on iPhone X, featuring the first OLED screen that rises to the standards of iPhone. “For more than a decade, our intention has been to create an iPhone that is all display.",
+    "image": "../img/products/x.jpg"
+
+  },
+  {
+    "productId": "iPXS",
+    "name": "iPhone XS",
+    "price": "550",
+    "options": {
+      "color": [
+        "Gold",
+        "Black",
+        "White"
+      ],
+      "storage": [
+        "64GB",
+        "256GB"
+      ]
+    },
+    "description": "Enjoy a gloriously crisp, detailed display with the iPhone Xs. Featuring an edge-to-edge display 5.8” Super Retina OLED display, you'll stay focused on the task whether you're managing your work schedule or winding down with your favourite TV show on the journey home. ",
+    "image":"../img/products/xs.jpg"
+  },
+  {
+    "productId": "iPXSM",
+    "name": "iPhone XS Max",
+    "price": "600",
+    "options": {
+      "color": [
+        "Gold",
+        "Black",
+        "White"
+      ],
+      "storage": [
+        "64GB",
+        "256GB"
+      ]
+    },
+    "description": "Enjoy a gloriously crisp, detailed display with the iPhone Xs. Featuring an edge-to-edge display 5.8” Super Retina OLED display, you'll stay focused on the task whether you're managing your work schedule or winding down with your favourite TV show on the journey home. ",
+    "image":"../img/products/xsmax.jpg"
+  },
+  {
+    "productId": "iP11",
+    "name": "iPhone 11",
+    "price": "640",
+    "options": {
+      "color": [
+        "White",
+        "Black",
+        "Green",
+        "Yellow",
+        "Purple",
+        "Red"
+      ],
+      "storage": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ]
+    },
+    "description": "Just the right amount of everything. iPhone 11 features a new dual camera system with an ultra wide lens. Perfect for those sweeping landscapes or big group shots. With Apple's fastest smartphone processor yet, the iPhone 11 packs all the power you need.",
+    "image":"../img/products/11.jpg"
+  },
+  {
+    "productId": "iPXR",
+    "name": "iPhone 11",
+    "price": "620",
+    "options": {
+      "color": [
+        "White",
+        "Black",
+        "Blue",
+        "Yellow",
+        "Coral",
+        "Red"
+      ],
+      "storage": [
+        "64GB",
+        "128GB"
+      ]
+    },
+    "description": "Brilliant. In every way. Powered by the same A12 processor as the iPhone Xs, the iPhone XR features one of the most advanced LCD screens ever seen on a smartphone. True to life colours stretch all the way to the very edges of your phone, which is itself crafted from glass and aerospace-grade aluminium. A single lens wide angle camera gives you the power of portrait mode.",
+    "image":"../img/products/xr.jpg"
+  },
+  {
+    "productId": "iP11P",
+    "name": "iPhone 11 Pro",
+    "price": "700",
+    "options": {
+      "color": [
+        "White",
+        "Black",
+        "Green"
+      ],
+      "storage": [
+        "64GB",
+        "256GB",
+        "512GB"
+      ]
+    },
+    "description": "iPhone 11 Pro introduces a transformative triple-camera system with all-new Ultra Wide, Wide and Telephoto cameras, deeply integrated into iOS to create a pro-level camera experience designed for everyone.",
+    "image":"../img/products/11pro.jpg"
+  },
+  {
+    "productId": "iP11PM",
+    "name": "iPhone 11 Pro Max",
+    "price": "800",
+    "options": {
+      "color": [
+        "White",
+        "Black",
+        "Green"
+      ],
+      "storage": [
+        "64GB",
+        "256GB",
+        "512GB"
+      ]
+    },
+    "description": "iPhone 11 Pro introduces a transformative triple-camera system with all-new Ultra Wide, Wide and Telephoto cameras, deeply integrated into iOS to create a pro-level camera experience designed for everyone.",
+    "image":"../img/products/11promax.jpg"
+  },
+  {
+    "productId": "iP12P",
+    "name": "iPhone 12 Pro",
+    "price": "900",
+    "options": {
+      "color": [
+        "White",
+        "Black",
+        "Blue"
+      ],
+      "storage": [
+        "64GB",
+        "256GB",
+        "512GB"
+      ]
+    },
+    "description": "5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.",
+    "image":"../img/products/12pro.jpg"
+  }
+]
+
+
+
